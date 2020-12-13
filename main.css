@@ -13,17 +13,36 @@ body{
 	background: white;
 	margin: 20px;
 	border-left: 20px solid green;
-	border-right: 20px solid green;
+	border-right: 20px solid rgb(36, 160, 36);
 	height: 10000px;
 }
 .maindiv{
 	margin-top: 0px;
-	margin-left: 20px;
+	margin-left: 60px;
 	margin-right: 60px; 
 	position: absolute;
-	top: 60%;
-	left: 10%;
-	z-index: 1;
+	top: 80%;
+	
+	
+
+}
+
+
+.postbutton {
+	border: 10px solid gray;
+	height: 50px;
+	width: 100px;
+	position: absolute;
+	left: 70%;
+
+
+}
+
+
+
+#firststatic{
+	color: green;
+	font-size: 30px;
 
 }
 
@@ -32,35 +51,63 @@ body{
 	position: absolute;
 	visibility: visible;
 	left: 20%;
-	background: gray;
+	background-color: gray;
 	top:  20%;
-	/*visibility: hidden;*/
+	right: 30%;
 
+	
 }
 
-.posttextfield {
-	height: 50px;
-	width: 600px;
-	border: 20px solid gray;
+.postdiv2 {
+	margin: 20px;
+	position: absolute;
+	top: 150%;
+	left: 5%;
+	background-color: rgb(147, 187, 147);
 }
 
 .postbutton {
-	border: 10px solid gray;
-	height: 50px;
-	width: 100px;
-
+	left: 150%;
+	top: 0%; 
+	border: 5px;
+	background-color: rgb(55, 158, 55);
+	height: 40px;
 }
 
-.attachbutton {
-	border: 10px solid gray;
-	height: 50px;
+.posttextfield {
+	width: 98%;
+	height: 100%;
+	border-left:10px solid gray;
+	
 }
-#text{
-	border: 5px solid gray;
+#text {
+	border-left: 5px solid gray;
 }
 
-#firststatic{
-	color: green;
-	font-size: 30px;
+#Progress_Status { 
+	width: 50%; 
+	background-color: #ddd;
+	width: 0%;
 
-}
+
+  } 
+	
+  #myprogressBar { 
+	width: 1%; 
+	height: 35px; 
+	background-color: #4CAF50; 
+	text-align: center; 
+	line-height: 32px; 
+	color: black; 
+	position: absolute;
+	left: 1%;
+	right: 80%;
+	top: -120%;
+	margin: 0%;
+  } 
+
+  #postclass {
+position: absolute;
+top: 20%;
+
+  }
