@@ -61,18 +61,37 @@ body{
 .postdiv2 {
 	margin: 20px;
 	position: absolute;
-	top: 150%;
+	top: 120%;
 	left: 5%;
 	background-color: rgb(147, 187, 147);
 }
 
 .postbutton {
-	left: 150%;
-	top: 0%; 
+	left: 110%;
+	top: 35%; 
+	border: 5px;
+	background-color: rgb(55, 158, 55);
+	height: 50px;
+}
+
+.postbutton2 {
+	left: 110%;
+	position: absolute;
+	top: 75%; 
 	border: 5px;
 	background-color: rgb(55, 158, 55);
 	height: 40px;
 }
+
+.postbutton3{
+	left: 160%;
+	position: absolute;
+	top: -50%; 
+	border: 5px;
+	background-color: rgb(55, 158, 55);
+	height: 40px;
+}
+
 
 .posttextfield {
 	width: 98%;
@@ -109,5 +128,55 @@ body{
   #postclass {
 position: absolute;
 top: 20%;
+right: 500px;
+border: 10px solid red;
 
+  }
+  .myprogressBar2{
+
+	height: 40px;
+	width: 200px;
+  }
+
+  .myprogressBar{
+
+	height: 40px;
+	width: 200px;
+  }
+
+  #postsclass2 {
+	  position: absolute;
+	  right: 10px;
+	  left: 500px;
+	  top: 8%;
+	
+
+  }
+
+#postsclass3{
+	position: absolute;
+	right: 10px;
+	left: 800px;
+	top: 8%;
+	margin-top: 30px;
+	color: red;
+  
+}
+
+  #secondstatic {
+	color: green;
+	font-size: 30px;
+	position: absolute;
+	right: 10px;
+	left: 600px;
+	top: 0%;
+  }
+
+  #thirdstatic {
+	color: green;
+	font-size: 30px;
+	position: absolute;
+	right: 10px;
+	left: 900px;
+	top: 0%;
   }

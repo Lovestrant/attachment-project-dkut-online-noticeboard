@@ -2,7 +2,7 @@
 <html>
 <head>
 	<title>Main page</title>
-	<!--<script src="main.js"></script>-->
+	<script src="main.js"></script>
 	<script src="firebaseconnect.js"></script>
 	
 	<link rel="stylesheet" type="text/css" href="main.css">
@@ -57,12 +57,25 @@
 
 	<div class="maindiv">
 
-		<p id="firststatic">Newest updates</p>
+		<p id="firststatic">Newest updates(videos/Audio)</p>
 		<div id="postsclass">
 					
 		<!-- This is where the posts will get displayed-->
+	</div>
+	<p id="secondstatic">Pictures</p>
+	<div id="postsclass2">
+		
 	
-		</div>
+		<!--This is where the picture posts will get displayed-->
+	</div>
+
+	<p id="thirdstatic">TextPosts</p>
+	
+	<div id="postsclass3">
+	
+		<!--This is where the text posts will get displayed-->
+	</div>
+
 		
 			
 			
@@ -86,14 +99,17 @@
 	
 		<div class="postdiv2">
 			
-			<p id="Progress_Status"> 
-				<p id="myprogressBar"> Progress </p> 
-		
+			 <p>
+				<progress class="myprogressBar"  min = "0" max = "100" value="0"></progress> 
 			</p>
+			
 
-			<button type="button" id="button" class="postbutton" onclick="upload()">Post</button>
-			<input id = "files" type="file" class="attachbutton" accept="image/*, audio/*, video/*" multiple = false> </input>
-
+			<button type="button" id="button1" class="postbutton" onclick="upload()">Post video/audio</button>
+			<button type="button" id="button2" class="postbutton2" onclick="imageupload()">post image</button>
+			<button type="button" id="button3" class="postbutton3" onclick="createtext()">post text</button>
+			<input id = "files" type="file" class="attachbutton" accept="audio/*, video/*" multiple = false>attach audio/video</audio> </input>
+			<p><progress class="myprogressBar2"  min = "0" max = "100" value="0"></progress> </p>
+			<input id = "file" type="file" class="attachbutton" accept="image/*" multiple = false>attach image </input>
 		</div>
 	</div>		
 	</form>	
